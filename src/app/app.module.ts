@@ -21,9 +21,10 @@ import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { HeaderComponent } from './view/header/header.component';
 
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { StarRatingComponent } from './view/star-rating/star-rating.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, LoginComponent, HeaderComponent],
+  declarations: [AppComponent, HomeComponent, LoginComponent, HeaderComponent, StarRatingComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
