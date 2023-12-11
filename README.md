@@ -36,7 +36,7 @@ a. Create Food model
 
 b. Create data.ts
 
-b1. Add sample foods
+    b1. Add sample foods
 
 c. Add images to assets
 
@@ -44,8 +44,26 @@ d. Create Food service
 
 e. Create Home component
 
-e1. Add ts
+    e1. Add ts
 
-e2. Add html
+    e2. Add html
 
-e3. Add css
+    e3. Add css
+
+4. Search
+
+a. Add method to Food service
+
+b. Add search route
+
+c. Show search result in Home Component
+
+d. Generate search component
+
+    d1. Add to home component
+
+    d2. Add ts
+
+    d3. Add html
+
+    d4. Add css
