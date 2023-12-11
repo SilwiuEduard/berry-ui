@@ -23,17 +23,27 @@ c. Create App as frontend
 2. Add Header
 
 a. Generate Component
+
 b. Add Html
+
 c. Add CSS
 
 3. List Foods
 
 a. Create Food model
+
 b. Create data.ts
+
 b1. Add sample foods
+
 c. Add images to assets
+
 d. Create Food service
+
 e. Create Home component
+
 e1. Add ts
+
 e2. Add html
+
 e3. Add css
