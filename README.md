@@ -17,7 +17,9 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 1. Create Angular App
 
 a. Create project's folder
+
 b. Install @angular/cli
+
 c. Create App as frontend
 
 2. Add Header
