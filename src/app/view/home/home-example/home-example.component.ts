@@ -1,13 +1,14 @@
 import { Component, OnInit } from '@angular/core';
+import { Subject, debounceTime } from 'rxjs';
 import { FoodService } from 'src/app/services/food.service';
 import { Food } from 'src/app/shared/models/food';
 
 @Component({
-  selector: 'home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss'],
+  selector: 'home-example',
+  templateUrl: './home-example.component.html',
+  styleUrls: ['./home-example.component.scss'],
 })
-export class HomeComponent implements OnInit {
+export class HomeExampleComponent implements OnInit {
   foods: Food[] = [];
 
   constructor(private foodService: FoodService) {

@@ -15,16 +15,26 @@ import { MatDialogModule } from '@angular/material/dialog';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './view/home/home.component';
+import { HomeComponent } from './view/home/home/home.component';
 import { LoginComponent } from './view/login/login.component';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { HeaderComponent } from './view/header/header.component';
 
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { StarRatingComponent } from './view/star-rating/star-rating.component';
+import { HomeWithSearchButtonComponent } from './view/home/home-with-search-button/home-with-search-button.component';
+import { HomeExampleComponent } from './view/home/home-example/home-example.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, LoginComponent, HeaderComponent, StarRatingComponent],
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    LoginComponent,
+    HeaderComponent,
+    StarRatingComponent,
+    HomeWithSearchButtonComponent,
+    HomeExampleComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
