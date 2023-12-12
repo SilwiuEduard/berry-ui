@@ -1,0 +1,10 @@
+<div>
+  <input
+    #searchRef
+    type="text"
+    placeholder="Find your favorite dish! 🔎"
+    (keyup.enter)="search(searchRef.value)"
+    [value]="searchTerm"
+  />
+  <button (click)="search(searchRef.value)">Search</button>
+</div>

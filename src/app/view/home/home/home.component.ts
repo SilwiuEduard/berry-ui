@@ -26,15 +26,6 @@ export class HomeComponent implements OnInit {
     });
   }
 
-  // filterResults(value: string) {
-  //   if (!value) {
-  //     this.filteredDishes = this.foods;
-  //   } else {
-  //     this.filteredDishes = this.foods.filter((food) =>
-  //       food.name.toLowerCase().includes(value.toLowerCase())
-  //     );
-  //   }
-  // }
   filterResults(value: string) {
     if (!value.trim()) {
       this.filteredDishes = this.foods;
@@ -45,9 +36,6 @@ export class HomeComponent implements OnInit {
     }
   }
 
-  // onSearch(value: string) {
-  //   this.searchSubject.next(value);
-  // }
   onSearch(event: Event) {
     const value = (event.target as HTMLInputElement).value;
     this.searchSubject.next(value);

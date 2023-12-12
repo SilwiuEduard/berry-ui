@@ -9,9 +9,11 @@ import { HomeExampleComponent } from './view/home/home-example/home-example.comp
 const routes: Routes = [
   // { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: '', component: HomeComponent },
+
   { path: 'home-with-search-button', component: HomeWithSearchButtonComponent },
   { path: 'home-example', component: HomeExampleComponent },
-  // { path: 'home', component: HomeComponent },
+  { path: 'search/:searchTerm', component: HomeExampleComponent },
+
   { path: 'login', component: LoginComponent },
   // { path: '**', redirectTo: '/home' },
 ];
