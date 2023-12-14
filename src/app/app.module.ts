@@ -19,24 +19,26 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatDialogModule } from '@angular/material/dialog';
 
 import { AppComponent } from './app.component';
-import { HomeComponent } from './view/home/home/home.component';
 import { HeaderComponent } from './view/partials/header/header.component';
+import { HomeComponent } from './view/home/home.component';
 import { LoginComponent } from './view/login/login.component';
-import { StarRatingComponent } from './view/star-rating/star-rating.component';
-import { HomeWithSearchButtonComponent } from './view/home/home-with-search-button/home-with-search-button.component';
-import { HomeExampleComponent } from './view/home/home-example/home-example.component';
 import { SearchComponent } from './view/partials/search/search.component';
+import { StarRatingComponent } from './view/star-rating/star-rating.component';
+import { HomeWithDebounceComponent } from './view/home/others/home-debounce/home-with-debounce.component';
+import { HomeWithSearchButtonComponent } from './view/home/others/home-with-search-button/home-with-search-button.component';
+import { HomeExampleComponent } from './view/home/others/home-example/home-example.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
     HeaderComponent,
+    HomeComponent,
     LoginComponent,
+    SearchComponent,
     StarRatingComponent,
+    HomeWithDebounceComponent,
     HomeWithSearchButtonComponent,
     HomeExampleComponent,
-    SearchComponent,
   ],
   imports: [
     BrowserModule,

@@ -5,11 +5,11 @@ import { Subject } from 'rxjs';
 import { debounceTime } from 'rxjs/operators';
 
 @Component({
-  selector: 'home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss'],
+  selector: 'home-with-debounce',
+  templateUrl: './home-with-debounce.component.html',
+  styleUrls: ['./home-with-debounce.component.scss'],
 })
-export class HomeComponent implements OnInit {
+export class HomeWithDebounceComponent implements OnInit {
   foods: Food[] = [];
   filteredDishes: Food[] = [];
 
