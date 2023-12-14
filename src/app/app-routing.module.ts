@@ -11,13 +11,14 @@ import { LoginComponent } from './view/login/login.component';
 const routes: Routes = [
   // { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: '', component: HomeComponent },
+  { path: 'tag/:tag', component: HomeComponent },
+  { path: 'login', component: LoginComponent },
 
   { path: 'home-with-debounce', component: HomeWithDebounceComponent },
   { path: 'home-with-search-button', component: HomeWithSearchButtonComponent },
   { path: 'home-example', component: HomeExampleComponent },
   { path: 'search/:searchTerm', component: HomeExampleComponent },
 
-  { path: 'login', component: LoginComponent },
   // { path: '**', redirectTo: '/home' },
 ];
 

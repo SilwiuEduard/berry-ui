@@ -17,13 +17,13 @@ export class HomeComponent implements OnInit {
     // ActivatedRoute used for =>  { path: 'home-with-search-button', component: ... },
   ) {
     activatedRoute.params.subscribe((params) => {
-      if (params.searchTerm) {
+      if (params.searchTerm)
         this.foods = this.foodService.getAllFoodsBySearchTerm(
           params.searchTerm
         );
-      } else {
-        this.foods = foodService.getAll();
-      }
+      else if (params.tag)
+        this.foods = this.foodService.getAllFoodsByTag(params.tag);
+      else this.foods = foodService.getAll();
     });
   }
 

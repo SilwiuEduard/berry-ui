@@ -27,6 +27,7 @@ import { StarRatingComponent } from './view/star-rating/star-rating.component';
 import { HomeWithDebounceComponent } from './view/home/others/home-debounce/home-with-debounce.component';
 import { HomeWithSearchButtonComponent } from './view/home/others/home-with-search-button/home-with-search-button.component';
 import { HomeExampleComponent } from './view/home/others/home-example/home-example.component';
+import { TagsComponent } from './view/partials/tags/tags.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { HomeExampleComponent } from './view/home/others/home-example/home-examp
     HomeWithDebounceComponent,
     HomeWithSearchButtonComponent,
     HomeExampleComponent,
+    TagsComponent,
   ],
   imports: [
     BrowserModule,
